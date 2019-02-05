@@ -23,6 +23,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Change Color"/>
                                 <connections>
+                                    <action selector="changeColorButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DaY-7w-SeT"/>
                                     <action selector="changeColorButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wc3-ty-oci"/>
                                     <action selector="changeColorPressButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KV8-X6-5C2"/>
                                 </connections>
